@@ -30,16 +30,17 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/*.header-menu-item,
-:hover .header-menu-item:focus {
+.header-link {
+  color: #2e2f42;
+}
+.header-link :hover,
+.header-link:focus {
   color: #404bbf;
-}*/
-.address: {
-  font-style: normal;
 }
 
 .address-link {
   color: #434455;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -68,7 +69,6 @@ a {
   letter-spacing: 0.04em;
   color: #ffffff;
   background: var(--IRIS, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
 .main-btn:hover,
@@ -105,11 +105,7 @@ a {
   background: var(--CLOUD, #f4f4fd);
 }
 .section-team-menu {
-  border-radius: 0px 0px 4px 4px;
   background: var(--WHITE, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .main-subtitle {
