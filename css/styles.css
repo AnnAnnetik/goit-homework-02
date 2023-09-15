@@ -33,14 +33,19 @@ a {
 .header-link {
   color: #2e2f42;
 }
-.header-link :hover,
+.header-link :hover {
+  color: #404bbf;
+}
 .header-link:focus {
   color: #404bbf;
 }
+.address:{
+  font-style: normal;
 
+}
 .address-link {
   color: #434455;
-  font-style: normal;
+  
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
