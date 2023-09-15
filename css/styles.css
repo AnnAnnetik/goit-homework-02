@@ -39,13 +39,12 @@ a {
 .header-link:focus {
   color: #404bbf;
 }
-.address:{
+.address {
   font-style: normal;
-
 }
 .address-link {
   color: #434455;
-  
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -81,7 +80,7 @@ a {
   background: var(--OCEAN, #404bbf);
 }
 
-.visually-hidden {
+/*.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -92,7 +91,7 @@ a {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+}*/
 .main-item {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
